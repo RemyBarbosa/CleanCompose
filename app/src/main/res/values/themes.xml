@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <style name="Theme.Peer.Starting" parent="Theme.SplashScreen">
+<!--        if not loading quick enough just add the color background of the splash screen -->
+<!--        <item name="windowSplashScreenBackground">Purple80 in the composable Theme</item>-->
+        <item name="windowSplashScreenBackground">@android:color/transparent</item>
+        <item name="windowSplashScreenAnimatedIcon">@android:color/transparent</item>
+        <item name="postSplashScreenTheme">@style/Theme.CleanCompose</item>
+    </style>
+
+
     <style name="Theme.CleanCompose" parent="android:Theme.Material.Light.NoActionBar" />
 </resources>

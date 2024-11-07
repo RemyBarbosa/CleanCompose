@@ -38,10 +38,10 @@ android {
 dependencies {
     api(project(":entity"))
 
-    api("io.reactivex.rxjava2:rxjava:2.2.20")
+    api("io.reactivex.rxjava2:rxjava:2.2.21")
 
-    kapt("com.google.dagger:hilt-compiler:2.48")
-    implementation("com.google.dagger:hilt-android:2.48")
-    implementation("androidx.hilt:hilt-navigation-compose:1.1.0-beta01")
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-rx2:1.7.1")
+    kapt("com.google.dagger:hilt-compiler:2.52")
+    implementation("com.google.dagger:hilt-android:2.52")
+    implementation("androidx.hilt:hilt-navigation-compose:1.2.0")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-rx2:1.7.3")
 }

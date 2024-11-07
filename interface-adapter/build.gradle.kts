@@ -37,12 +37,12 @@ android {
 dependencies {
     api(project(":use-case"))
 
-    kapt("com.google.dagger:hilt-compiler:2.48")
-    implementation("com.google.dagger:hilt-android:2.48")
-    implementation("androidx.hilt:hilt-navigation-compose:1.1.0-beta01")
+    kapt("com.google.dagger:hilt-compiler:2.52")
+    implementation("com.google.dagger:hilt-android:2.52")
+    implementation("androidx.hilt:hilt-navigation-compose:1.2.0")
 
     testImplementation("junit:junit:4.13.2")
-    testImplementation("org.mockito:mockito-inline:3.1.0")
+    testImplementation("org.mockito:mockito-inline:4.1.0")
     testImplementation("com.nhaarman.mockitokotlin2:mockito-kotlin:2.2.0")
     testImplementation("org.assertj:assertj-core:3.15.0")
     testImplementation("com.tngtech.junit.dataprovider:junit4-dataprovider:2.0")
